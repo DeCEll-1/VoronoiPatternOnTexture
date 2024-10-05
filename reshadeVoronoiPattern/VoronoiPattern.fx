@@ -1,7 +1,7 @@
 #include "../ReShade.fxh"
 #include "voronoi.hlsl"
 
-uniform float2 level = float2(370., 280.);
+uniform float2 level = float2(320., 280.);
 uniform float time < source = "framecount"; >;
 
 float3 main(float4 position : SV_Position, float2 texcoord : TexCoord) : SV_Target
